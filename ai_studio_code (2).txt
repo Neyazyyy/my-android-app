@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050608"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Crown Icon / Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="👑"
+        android:textSize="55sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="الوصول المميز"
+        android:textColor="#9CA3AF"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.2"
+        android:text="VIP ACCESS"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Activation Key Input -->
+    <EditText
+        android:id="@+id/etVipKey"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:background="#0D1017"
+        android:drawableEnd="@android:drawable/ic_lock_lock"
+        android:gravity="right|center_vertical"
+        android:hint="أدخل مفتاح التفعيل هنا"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#6B7280"
+        android:textSize="14sp" />
+
+    <!-- Login Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:background="#00C875"
+        android:text="تسجيل الدخول"
+        android:textColor="#050608"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <!-- Copy Device ID Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCopyId"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="#0D1017"
+        android:text="نسخ المعرف ⚙️"
+        android:textColor="#E5E7EB"
+        android:textSize="13sp" />
+
+    <!-- Buy VIP Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBuyVip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="#0D1017"
+        android:text="شراء كود VIP 💎"
+        android:textColor="#FCD34D"
+        android:textSize="13sp" />
+
+</LinearLayout>
